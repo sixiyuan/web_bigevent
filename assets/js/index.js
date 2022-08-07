@@ -51,7 +51,7 @@ $(() => {
 
       // 头像图片
       if(data.user_pic !== null) {
-        $('.layui-nav-img').attr('str' ,data.user_pic).show()
+        $('.layui-nav-img').attr('src' ,data.user_pic).show()
         $(`.text-avatar`).hide()
       } else {
         const first = name[0]

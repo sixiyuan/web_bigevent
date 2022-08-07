@@ -2,7 +2,7 @@
 
 $.ajaxPrefilter(option => {
   // 在发起ajax请求时统一路径
-  option.url = 'http://www.liulongbin.top:3007' + option.url
+  option.url = 'http://big-event-api-t.itheima.net' + option.url
 
   // console.log(option.url)
   // 给包含my路径的地址添加同意请求头
